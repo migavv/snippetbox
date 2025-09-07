@@ -1,0 +1,30 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Test binaries
+*_test
+
+# Compiled packages and object files
+*.a
+*.o
+
+# Dependencies
+vendor/
+
+# Environment-specific files
+.env
+.DS_Store # macOS specific
+Thumbs.db # Windows specific
+
+# Build artifacts
+bin/
+pkg/
+
+# Editor/IDE specific files
+.idea/ # IntelliJ IDEA
+.vscode/ # VS Code
+*.sublime-project # Sublime Text
+*.sublime-workspace
